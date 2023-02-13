@@ -43,7 +43,6 @@ dependencies:
   avatar_glow: ^2.0.2
   get: ^4.6.5
   shared_preferences: ^2.0.17
-  flutter_blue: ^0.8.0
 
 
 dev_dependencies:
