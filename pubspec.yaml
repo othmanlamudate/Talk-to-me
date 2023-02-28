@@ -43,7 +43,19 @@ dependencies:
   avatar_glow: ^2.0.2
   get: ^4.6.5
   shared_preferences: ^2.0.17
-
+  http: ^0.13.5
+  firebase_core: ^2.7.0
+  firebase_storage: ^11.0.14
+  cloud_firestore: ^4.4.3
+  firebase_messaging: ^14.2.5
+  firebase_auth: ^4.2.9
+  awesome_dialog: ^3.0.2
+  dropdown_search: ^5.0.5
+  google_sign_in: ^6.0.1
+  image_picker: ^0.8.6+3
+  flutter_translate: ^4.0.3
+  flutter_blue: ^0.8.0
+  
 
 dev_dependencies:
   flutter_test:

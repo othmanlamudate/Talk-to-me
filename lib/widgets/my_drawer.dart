@@ -39,7 +39,7 @@ class _MyDrawerState extends State<MyDrawer> {
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
                     image: DecorationImage(
-                      image: AssetImage('images/avatar.png'),
+                      image: AssetImage('image`s/avatar.png'),
                     ),
                   ),
                 ),

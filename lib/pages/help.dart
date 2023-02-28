@@ -3,7 +3,10 @@ import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:talktome/konstants.dart';
 import 'package:talktome/widgets/my_drawer.dart';
 
+
 class Help extends StatelessWidget {
+  const Help({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -61,45 +64,43 @@ class Help extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              Container(
-                child: Column(
-                  children: [
-                    Row(
-                      // mainAxisAlignment: MainAxisAlignment.center,
-                      children: const [
-                        Icon(Icons.email),
-                        SizedBox(
-                          width: 10,
-                        ),
-                        Text(
-                          "Email:",
-                          style: TextStyle( fontSize: 20),
-                        ),
-                        Text("talktome@gmail.com",
-                            style: TextStyle(
-                              fontSize: 20,
-                            )),
-                      ],
-                    ),
-                    Row(
-                      // mainAxisAlignment: MainAxisAlignment.center,
-                      children:  [
-                        const Icon(Icons.phone),
-                        const SizedBox(
-                          width: 10,
-                        ),
-                        Text(
-                          "tel".tr,
-                          style: const TextStyle( fontSize: 20),
-                        ),
-                        const Text("0606060606",
-                            style: TextStyle(
-                              fontSize: 20,
-                            )),
-                      ],
-                    ),
-                  ],
-                ),
+              Column(
+                children: [
+                  Row(
+                    // mainAxisAlignment: MainAxisAlignment.center,
+                    children: const [
+                      Icon(Icons.email),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Text(
+                        "Email:",
+                        style: TextStyle( fontSize: 20),
+                      ),
+                      Text("talktome@gmail.com",
+                          style: TextStyle(
+                            fontSize: 20,
+                          )),
+                    ],
+                  ),
+                  Row(
+                    // mainAxisAlignment: MainAxisAlignment.center,
+                    children:  [
+                      const Icon(Icons.phone),
+                      const SizedBox(
+                        width: 10,
+                      ),
+                      Text(
+                        "tel".tr,
+                        style: const TextStyle( fontSize: 20),
+                      ),
+                      const Text("0606060606",
+                          style: TextStyle(
+                            fontSize: 20,
+                          )),
+                    ],
+                  ),
+                ],
               )
             ],
           ),
